@@ -1,0 +1,46 @@
+:root {
+	--list-item-height: 50px;
+	--list-item-font-size: 16px;
+	--main-color: #30306f;
+	--duration: 0.3s;
+}
+a:hover {
+	text-decoration: none;
+}
+div.drs {
+	padding: 20px;
+}
+main > div.content {
+	padding: 20px;
+}
+.caption a {
+	text-decoration: none;
+}
+.caption a h3 {
+	text-align: center;
+}
+#docslist ul {
+	width: 100%;
+}
+#docslist li {
+	width: 100%;
+}
+#docslist a {
+	text-align: center;
+	width: 100%;
+	color: black!important;
+	box-sizing: border-box;
+	display: block;
+	text-decoration: none!important;
+	height: var(--list-item-height);
+	padding-top: calc(var(--list-item-height)/2 - var(--list-item-font-size));
+	transition-duration: var(--duration);
+}
+#docslist a:hover {
+	color: var(--main-color);
+	background-color: #ddd;
+}
+#docslist {
+	list-style-type: none;
+	display: inline;
+}

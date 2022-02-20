@@ -1,0 +1,9 @@
+:root {
+	--nav-height: 70px;
+	--nav-font-size: 18px;
+	--nav-bg-hover-color: #ddd;
+	--nav-bg-color: #f5f5f5;
+	--nav-text-color: #888;
+	--main-color: #30306f;
+	--duration: 0.3s;
+}

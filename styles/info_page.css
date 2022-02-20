@@ -1,0 +1,49 @@
+main h3, main h2, main h4 {
+	text-align: center;
+}
+a {
+	text-decoration: none!important;
+}
+#price_orthopedic > div {
+	height: 600px;
+}
+@media (max-width: 992px) {
+	#contract > div:not(div:last-of-type) {
+		height: 700px;
+	}
+	#others > div/*:not(div:last-of-type, div:nth-of-type(3))*/ {
+		height: 800px;
+	}
+	#price_orthopedic > div {
+		height: 800px;
+	}
+}
+@media (max-width: 768px) {
+	#contract > div:not(div:last-of-type) {
+		height: 1100px;
+	}
+	#others > div/*:not(div:last-of-type, div:nth-of-type(3))*/ {
+		height: 1100px;
+	}
+	#price_orthopedic > div {
+		height: 1280px;
+	}
+	#price_therapic > div {
+		height: 1280px;
+	}
+	#price_therapic > div:last-of-type {
+		height: 700px;
+	}
+	#price_therapic > div:first-of-type {
+		height: 900px;
+	}
+	#price_orthopedic > div:nth-of-type(2) {
+		height: 1000px;
+	}
+	#price_orthopedic > div:nth-of-type(3) {
+		height: 1000px;
+	}
+	#price_orthopedic > div:nth-of-type(6) {
+		height: 400px;
+	}
+}

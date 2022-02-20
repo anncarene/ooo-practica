@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Врачи-специалисты ООО Практика">
+		<meta name="keywords" content="Практика, персонал, врачи">
+		<meta name="robots" content="index, follow">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="author" content="A. Chetverikoff">
+		<script src="jQuery.js"></script>
+		<link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
+		<script src="jquery-ui/jquery-ui.min.js"></script>
+		<link rel="stylesheet" href="bootstrap3/bootstrap.min.css">
+		<script src="bootstrap3/bootstrap.min.js"></script>
+		<title>Врачи-специалисты</title>
+		<link rel="stylesheet" href="styles/common.css">
+		<link rel="stylesheet" href="styles/employees_page.css">
+		<script src="scripts/slidingMenuPlugin.js"></script>
+		<script src="scripts/drsScript.js"></script>
+	</head>
+	<body>
+		<div class="modal fade" id="image-modal" tabindex="-1" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="close">
+							<span aria-hidden="true">x</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive center-block" src="" alt="" />
+					</div>	
+				</div>	
+			</div>	
+		</div>
+		<div class="behind_header">
+		</div>
+		<header>
+			<div class="logo">
+				ООО<br/>
+				Практика
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  				<path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+			</svg>	
+		</header>
+		<nav>	
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="#">Врачи-специалисты</a></li>
+				<li><a href="info.html">Информация</a></li>
+			</ul>	
+		</nav>
+		<div class="wrapper"> 
+			<main>
+				<div class="content">
+					<div class="drs">
+						<h3>Выберите врача, чтобы посмотреть его документы. </h3>
+						<div class="row">
+							<div class="col-xs-12">
+								<ul id="docslist">
+									<li><a id="chikin" href="#"></a></li>
+									<li><a id="birin" href="#"></a></li>
+									<li><a id="apex" href="#"></a></li>
+								</ul>	
+							</div>	
+						</div>		
+					</div>	
+					<div class="gallery row">
+					</div>
+				</div>	
+			</main>
+			<footer>
+				Адрес: Россия, Н.Новгород, <br/>
+				Пр. Ленина 45 к3 помещение 1 <br/>
+				Телефон: +79108817736 <br/>
+				Часы работы: по предварительной записи
+			</footer>
+		</div>
+	</body>	
+</html>
